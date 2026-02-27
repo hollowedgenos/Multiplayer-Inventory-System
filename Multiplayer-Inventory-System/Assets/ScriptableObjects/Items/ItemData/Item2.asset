@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 284102f7e21b318468bfcc17f54222cf, type: 3}
+  m_Name: Item2
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  itemID: item2_id
+  itemName: item2_name
+  rarity: 1
+  effects:
+  - Type: 1
+    IntValue: 0
+    StringValue: 
+    EffectName: hp_multiply
+  - Type: 1
+    IntValue: 25
+    StringValue: 
+    EffectName: defense_add
+  - Type: 2
+    IntValue: 0
+    StringValue: 
+    EffectName: speed_multiply
+  - Type: 2
+    IntValue: 0
+    StringValue: 
+    EffectName: gold_gain_multiply
+  - Type: 2
+    IntValue: 0
+    StringValue: 0.05
+    EffectName: xp_gain_multiply
+  itemPrefab: {fileID: 855562366895828053, guid: 7711226557183e64a9fcb9c7bddd84c5, type: 3}
